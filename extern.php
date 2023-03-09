@@ -1,12 +1,25 @@
 <?php 
-    $page_title = "Läsa en extern textfil";
+    $page_title = "Läsa in extern textfil";
+    $body_title = "Läsa in extern textfil";
     include("includes/header.php");
     include("includes/nav.php");
+    include("includes/title.php");
 ?>
-            <h2 id="page-title">1. Har du tidigare erfarenhet av utveckling med PHP?</h2>
             </section>
             <section class="body-answer">
-                <p>Nej, detta blir första gången jag jobbar med PHP.</p>
+                <p>
+                <?php
+                   $coursesArr = file("courses.txt");
+
+                    echo "<ul>";
+
+                   foreach ($coursesArr as $course) {
+                        echo "<li>".$course."</li>";
+                   }
+
+                   echo "</ul>"
+                ?>
+                </p>
             </section>
 
     <?php 

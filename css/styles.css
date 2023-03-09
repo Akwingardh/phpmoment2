@@ -107,3 +107,27 @@ body, html {
     background-color: white;
 }
 
+#form, #form2 {
+    padding-top: 20px;
+}
+
+#form label, #form2 label {
+    padding-right: 20px;
+}
+
+#form input, #form2 input {
+    background-color: #FED766;
+    border: 0;
+    padding: 10px;
+    color: #525252;
+}
+
+#form button, #form2 button {
+    background-color: #009FB7;
+    border: 0;
+    padding: 10px;
+    color: #F4F4F8;
+    text-transform: uppercase;
+    float: right; 
+}
+
