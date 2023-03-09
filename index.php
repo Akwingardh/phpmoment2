@@ -19,19 +19,19 @@
                 <h2>3. Hur har du valt att strukturera upp dina filer och kataloger?</h2>
             </section>
             <section class="body-answer">
-                <p>Svar</p>
+                <p>Jag valde att göra en includes-mapp som innehöll php-filer för headern, footern, navigationen och titel samt en config-fil som sen kunde inkluderas i de övriga php-filerna. Utöver detta hade jag en css-mapp med css-fil, courses-textfilen samt webbplatsens sidor.</p>
             </section>
             <section class="body-question">
                 <h2>4. Har du följt guiden, eller skapat på egen hand?</h2>
             </section>
             <section class="body-answer">
-                <p>Svar</p>
+                <p>Jag följde guiden till stor del då jag ville försöka lära mig på ett så organiserat sätt som möjligt nu i början av inlärningsprocessen.</p>
             </section>
             <section class="body-question">
                 <h2>5. Har du gjort några förbättringar eller vidareutvecklingar av guiden (om du följt denna)?</h2>
             </section>
             <section class="body-answer">
-                <p>Svar</p>
+                <p>Inte vad jag vet eller gjort medvetet i så fall.</p>
             </section>
             <section class="body-question">
                 <h2>6. Vilken utvecklingsmiljö har du använt för uppgiften (Editor, webbserver (XAMPP, LAMP, MAMP eller liknande) etcetera)?</h2>
@@ -43,7 +43,7 @@
                 <h2>7. Har något varit svårt med denna uppgift?</h2>
             </section>
             <section class="body-answer">
-                <p>Svar</p>
+                <p>Det är såklart alltid svårt att lära sig ett nytt programmeringsspråk, men jag upplevde att inlärningskurvan med just php var något snabbare än tex JavaScript. Tack vare de grunder jag redan kunde i JavaScript kunde jag snabbt förstå PHP och dess fördelar. Såklart hade jag vissa moment jag fastnade lite extra på, men med hjälp av den information som fanns tillgänglig och lite googling kunde jag lösa allt på egen hand.</p>
             </section>
         
 
